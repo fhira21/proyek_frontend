@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.btn{
+  margin: 2px;;
+}
+.divbtn{
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #10d0639a;
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Warna latar belakang */
+  padding: 5px; /* Ruang padding */
+}
+
+/* Styling untuk Brand */
+.navbar-brand {
+  font-size: 24px; /* Ukuran font */
+  color: #333; /* Warna teks */
+  font-weight: bold; /* Ketebalan font */
+}
+
+/* Styling untuk Tautan Navigasi */
+.navbar-nav .nav-link {
+  font-size: 18px; /* Ukuran font */
+  color: #555; /* Warna teks */
+  font-weight: bold; /* Ketebalan font */
+  margin-right: 15px; /* Ruang margin kanan antara tautan */
+}
+
+/* Styling untuk Tautan Navigasi Aktif */
+.navbar-nav .nav-link.active {
+  color: #000; /* Warna teks tautan aktif */
+}
+
+/* Styling untuk Toggle Button */
+.navbar-toggler {
+  border: none; /* Hapus border */
+}
+
+/* Styling untuk Ikon Toggle Button */
+.navbar-toggler-icon {
+  background-color: #555; /* Warna ikon */
+}
+
+/* Styling untuk Menu Navigasi yang Terbuka */
+.navbar-collapse {
+  justify-content: flex-end; /* Menu navigasi ditempatkan di sebelah kanan */
+}
+
+/* Styling untuk Jarak antar Menu Navigasi */
+.navbar-nav {
+  margin-left: auto; /* Jarak menu navigasi kiri agar tetap di sebelah kiri */
+}
+
+/* Styling untuk Jumbotron */
+.jumbotron {
+  background-color: #ff56c7; /* Warna latar belakang */
+  text-align: center; /* Posisi teks di tengah */
+  padding: 20px; /* Ruang padding */
+}
+
+/* Styling untuk kontainer tombol */
+.jumbotron .button-container {
+  display: flex; /* Mengaktifkan flexbox */
+  justify-content: center; /* Tengah secara horizontal */
+  margin-top: 25px; /* Ruang margin atas */
+}
+
+/* Styling untuk tombol */
+.jumbotron .btn {
+  margin: 10px 20px; /* Ruang margin tombol kiri dan kanan */
+  font-size: 18px; /* Ukuran font tombol */
+}
+
+/* Styling untuk tombol GitHub */
+.jumbotron .btn-github {
+  background-color: #4a91ca; /* Warna latar belakang tombol GitHub */
+  color: #fff; /* Warna teks tombol GitHub */
+}
+
+/* Styling untuk tombol Instagram */
+.jumbotron .btn-instagram {
+  background-color: #4a91ca; /* Warna latar belakang tombol Instagram */
+  color: #fff; /* Warna teks tombol Instagram */
+}
+
+/* Styling saat tombol dihover */
+.jumbotron .btn:hover {
+  opacity: 0.8; /* Transparansi saat tombol dihover */
+}
+
+.container {
+  margin-top: 50px; /* Margin atas kontainer */
+}
+
+.card {
+  max-width: 800px; /* Lebar maksimum kartu */
+  margin: 0 auto; /* Pusatkan kartu secara horizontal */
+  padding: 20px; /* Ruang padding kartu */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan pada kartu */
+}
+
+.card-title {
+  text-align: center; /* Posisi judul di tengah */
+}
+
+.divbtn {
+  margin-bottom: 20px; /* Ruang margin bawah divbtn */
+  text-align: right; /* Posisi tombol di sebelah kanan */
+}
+
+.table {
+  margin-top: 20px; /* Margin atas tabel */
+  width: 100%; /* Lebar tabel */
+}
+
+.table th {
+  background-color: #343a40; /* Warna latar belakang header kolom */
+  color: #fff; /* Warna teks header kolom */
+}
+
+.table td {
+  vertical-align: middle; /* Tengahkan isi sel pada kolom */
+}
+
+.table .btn {
+  margin-right: 5px; /* Ruang margin kanan tombol */
+}
+
+.table .btn-primary {
+  background-color: #007bff; /* Warna latar belakang tombol Details */
+}
+
+.table .btn-success {
+  background-color: #28a745; /* Warna latar belakang tombol Edit */
+}
+
+.table .btn-danger {
+  background-color: #dc3545; /* Warna latar belakang tombol Remove */
+}
+
+.table .btn-primary,
+.table .btn-success,
+.table .btn-danger {
+  color: #fff; /* Warna teks tombol */
+}
+
+.table .btn:hover {
+  opacity: 0.8; /* Transparansi saat tombol dihover */
+}
+
+.container {
+  margin-top: 50px; /* Margin atas kontainer */
+}
+
+.card {
+  padding: 20px; /* Ruang padding kartu */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan pada kartu */
+  text-align: left; /* Posisi teks pada kartu di kiri */
+}
+
+.card-title {
+  text-align: center; /* Posisi judul di tengah */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Ruang margin bawah pada form group */
+}
+
+.form-control {
+  width: 100%; /* Lebar form control */
+}
+
+.text-danger {
+  color: red; /* Warna teks peringatan merah */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
